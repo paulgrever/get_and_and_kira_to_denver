@@ -4,6 +4,9 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+$banner-gray: #eaeaea;
+$text-blue: #0072ef;
+
 body {  
   background-color: white;
 }
@@ -26,5 +29,13 @@ body {
 }
 
 .naver {
-  background-color: #eaeaea;
+  background-color: $banner-gray;
+}
+
+.text-link {
+  color: $text-blue;
+}
+
+.wider {
+  width: 100%;
 }
