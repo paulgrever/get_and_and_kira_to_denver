@@ -1,0 +1,30 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+body {  
+  background-color: white;
+}
+
+.logo {
+  padding: 10px;
+  height: 90px;
+}
+
+.bottom {
+  padding-top: 40px;
+}
+
+.extra {
+  padding-top: 30px;
+}
+
+.height {
+  height: 100px;
+}
+
+.naver {
+  background-color: #eaeaea;
+}
